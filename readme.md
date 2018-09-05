@@ -1,5 +1,6 @@
 GITHUB COURSE
 
+Isso faz parte do curso de git para iniciantes do Willian justen, para mais informações clique [aqui](https://www.udemy.com/git-e-github-para-iniciantes/learn/v4/overview)
 teste de edição do arquivo readme
 
 segunda edição do arquivo readme
