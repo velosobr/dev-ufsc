@@ -9,16 +9,5 @@ public class hello
 {
     public static void main (String [] args){
         System.out.println("Hello world, this is a git teste");
-        
-        
-        
-       
-    }
-    
-    public int encontrePrimeiroPrimo(int n){
-        while(!ehPrimo(n))
-        n++;
-        
-        return n;
     }
 }
