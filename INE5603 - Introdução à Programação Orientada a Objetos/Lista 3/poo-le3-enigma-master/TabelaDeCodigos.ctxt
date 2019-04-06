@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TabelaDeCodigos()
+comment0.text=\n\ Cria\ uma\ Tabela\ de\ C\u00F3digos\ cujos\ caracteres\ e\ suas\ codifica\u00E7\u00F5es\ s\u00E3o\ definidos\n\ no\ pr\u00F3prio\ algoritmo.\n\n
+comment1.params=caracteres\ caracteresCodificados
+comment1.target=TabelaDeCodigos(char[],\ char[])
+comment1.text=\n\ Cria\ uma\ Tabela\ de\ Codifica\u00E7\u00E3o\ a\ partir\ de\ um\ conjunto\ de\ caracteres\ e\ de\ um\ conjunto\n\ de\ caracteres\ codificados.\n\n\ @param\ caracteres\ Os\ caracteres.\n\ @param\ caracteresCodificados\ Os\ caracteres\ codificados.\n
+comment2.params=c
+comment2.target=int\ getPosicaoDoCaracter(char)
+comment2.text=\n\ Determina\ a\ posi\u00E7\u00E3o\ de\ um\ caracter\ dentro\ da\ tabela.\n\n\ @param\ c\ Um\ caracter\ n\u00E3o\ codificado.\n\ @return\ Retorna\ a\ posi\u00E7\u00E3o\ do\ caracter.\ Caso\ o\ caracter\ n\u00E3o\ fa\u00E7a\ parte\n\ da\ tabela\ ent\u00E3o\ retorna\ -1.\n
+comment3.params=c
+comment3.target=int\ getPosicaoDoCaracterCodificado(char)
+comment3.text=\n\ Determina\ a\ posi\u00E7\u00E3o\ de\ um\ caracter\ codificado\ dentro\ da\ tabela.\n\n\ @param\ c\ Um\ caracter\ codificado.\n\ @return\ Retorna\ a\ posi\u00E7\u00E3o\ do\ caracter\ codificado.\ Caso\ o\ caracter\ n\u00E3o\ fa\u00E7a\ parte\n\ da\ tabela\ ent\u00E3o\ retorna\ -1.\n
+comment4.params=posicao
+comment4.target=char\ getCaracter(int)
+comment4.text=\n\ Obt\u00E9m\ o\ caracter\ que\ est\u00E1\ em\ uma\ posi\u00E7\u00E3o\ na\ tabela.\n\n\ @param\ posicao\ A\ posi\u00E7\u00E3o\ do\ caracter\ na\ tabela.\n\ @return\ Retorna\ o\ caracter.\n
+comment5.params=posicao
+comment5.target=char\ getCaracterCodificado(int)
+comment5.text=\n\ Obt\u00E9m\ o\ caracer\ codificado\ que\ est\u00E1\ em\ uma\ posi\u00E7\u00E3o\ na\ tabela.\n\n\ @param\ posicao\ A\ posi\u00E7\u00E3o\ do\ caracter\ codificado\ na\ tabela.\n\ @return\ Retorna\ o\ caracter\ codificado.\n
+comment6.params=c\ arrayDeCaracteres
+comment6.target=int\ getPosicaoDoCaracterNoArray(char,\ char[])
+comment6.text=\n\ Obt\u00E9m\ a\ posi\u00E7\u00E3o\ de\ um\ caracter\ dentro\ de\ um\ array.\n\n\ @param\ c\ O\ caracter.\n\ @param\ arrayDeCaracteres\ O\ array\ de\ caracteres.\n\ @return\ Retorna\ a\ posi\u00E7\u00E3o\ do\ caracter\ no\ array.\ Caso\ o\ caracter\ n\u00E3o\ esteja\ no\ array\ ent\u00E3o\n\ retorna\ -1.\n
+comment7.params=
+comment7.target=boolean\ valide()
+comment7.text=\n\ Verifica\ se\ a\ Tabela\ de\ Codifica\u00E7\u00E3o\ \u00E9\ v\u00E1lida.\ Uma\ tabela\ \u00E9\ v\u00E1lida\ se\ for\ poss\u00EDvel\n\ codificar\ e\ decodificar\ corretamente\ qualquer\ um\ dos\ caracteres\ da\ tabela.\n\n\ @return\ Retorna\ true\ se\ a\ tabela\ for\ v\u00E1lida\ ou\ false\ caso\ contr\u00E1rio.\n
+numComments=8

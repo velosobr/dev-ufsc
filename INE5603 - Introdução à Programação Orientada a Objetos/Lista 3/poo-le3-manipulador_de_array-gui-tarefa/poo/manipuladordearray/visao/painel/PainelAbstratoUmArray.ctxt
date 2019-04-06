@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PainelAbstratoUmArray
+comment1.params=ma\ titulo\ nomeBotao\ nomeNumeros2
+comment1.target=PainelAbstratoUmArray(poo.manipuladordearray.modelo.ManipuladorDeArray,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ definaCampos()
+comment3.params=
+comment3.target=boolean\ podeCalcular()
+comment4.params=ma\ numeros1
+comment4.target=java.lang.String\ executeCalculo(poo.manipuladordearray.modelo.ManipuladorDeArray,\ int[])
+comment5.params=ma\ numeros1\ numeros2
+comment5.target=java.lang.String\ executeCalculo(poo.manipuladordearray.modelo.ManipuladorDeArray,\ int[],\ int[])
+numComments=6

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PainelAmigos
+comment1.params=c
+comment1.target=PainelAmigos(poo.calculador.modelo.Calculador)
+comment2.params=c\ n1\ n2
+comment2.target=java.lang.String\ executeCalculo(poo.calculador.modelo.Calculador,\ int,\ int)
+numComments=3

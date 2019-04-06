@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=PainelAbstrato
+comment1.params=ma\ titulo\ nomeBotao
+comment1.target=PainelAbstrato(poo.manipuladordearray.modelo.ManipuladorDeArray,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=boolean\ podeCalcular()
+comment2.params=ev
+comment2.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment3.params=numerosEmString
+comment3.target=int[]\ obtenhaNumeros(java.lang.String)
+comment4.params=
+comment4.target=boolean\ temTodosOsDados()
+comment5.params=numeros
+comment5.target=java.lang.String\ convertaArrayParaString(int[])
+comment6.params=
+comment6.target=void\ gereResultado()
+comment7.params=ma\ numeros
+comment7.target=java.lang.String\ executeCalculo(poo.manipuladordearray.modelo.ManipuladorDeArray,\ int[])
+comment8.params=
+comment8.target=void\ definaCampos()
+comment9.params=
+comment9.target=int\ definaTamanhoDoResultado()
+numComments=11

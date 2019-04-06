@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Guerreiro
+comment0.text=\r\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Guerreiro\ aqui.\r\nok\ Ao\ ser\ cirado\ sabe-se\ o\ c\u00F3digo\ de\ identifica\u00E7\u00E3o\ do\ guerreiro\ (exemplo\:\ "G001")\ \r\ne\ a\ quantidade\ m\u00E1xima\ de\ vidas\ que\ o\ guerreiro\ pode\ ter.\ Ao\ nascer,\ o\ guerreiro\ possui\ \r\na\ quantidade\ m\u00E1xima\ de\ vidas.\r\nInformar\ o\ c\u00F3digo\ do\ guerreiro.\r\nok\ Informar\ quantas\ vidas\ o\ guerreiro\ tem\ no\ momento.\r\nOK\ Informar\ se\ o\ guerreiro\ est\u00E1\ vivo\ ou\ n\u00E3o.\ Um\ guerreiro\ est\u00E1\ vivo\ ser\ possuir\ pelo\ menos\ uma\ vida.\r\nOK\ Ganhar\ uma\ vida,\ respeitando\ a\ quantidade\ m\u00E1xima\ de\ vidas.\r\nok\ Perder\ uma\ vida,\ sabendo\ que\ o\ limite\ \u00E9\ zero\ vidas.\r\nObter\ um\ clone\ do\ guerreiro,\ ou\ seja,\ gerar\ um\ novo\ guerreiro\ contendo\ exatamente\ as\ mesmas\ informa\u00E7\u00F5es.\r\n
+comment1.params=codigo\ maxVidas
+comment1.target=Guerreiro(java.lang.String,\ int)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Guerreiro\r\n
+comment2.params=codigo\ maxVidas\ numVidas
+comment2.target=Guerreiro(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getCodigo()
+comment3.text=\ \r\n\ Informar\ o\ c\u00F3digo\ do\ guerreiro\ \r\n
+comment4.params=
+comment4.target=int\ getNumVidas()
+comment4.text=\r\n\ Informar\ quantas\ vidas\ o\ guerreiro\ tem\ no\ momento.\r\n
+comment5.params=
+comment5.target=boolean\ estaVivo()
+comment5.text=\ \r\n\ Informar\ se\ o\ guerreiro\ est\u00E1\ vivo\ ou\ n\u00E3o.\ Um\ guerreiro\ est\u00E1\ vivo\ ser\ possuir\ pelo\ menos\ uma\ vida.\r\n
+comment6.params=
+comment6.target=void\ ganheVida()
+comment6.text=\r\n\ Ganhar\ uma\ vida,\ respeitando\ a\ quantidade\ m\u00E1xima\ de\ vidas.\r\n
+comment7.params=
+comment7.target=void\ perdeVida()
+comment7.text=\ \r\n\ Perder\ uma\ vida,\ sabendo\ que\ o\ limite\ \u00E9\ zero\ vidas.\r\n
+comment8.params=
+comment8.target=Guerreiro\ clone()
+comment8.text=\ \r\n\ Obter\ um\ clone\ do\ guerreiro,\ ou\ seja,\ gerar\ um\ novo\ guerreiro\ contendo\ exatamente\ \r\n\ as\ mesmas\ informa\u00E7\u00F5es.\r\n
+numComments=9

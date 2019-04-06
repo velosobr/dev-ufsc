@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=frase\ tabela
+comment0.target=java.lang.String\ codifique(java.lang.String,\ TabelaDeCodigos)
+comment0.text=\n\ Codifica\ uma\ frase.\n\n\ @param\ frase\ A\ frase\ a\ ser\ codificada.\n\ @param\ tabela\ A\ Tabela\ de\ Codifica\u00E7\u00E3o\ usada\ para\ codificar.\n\ @return\ Retorna\ a\ frase\ codificada\ ou\ null\ caso\ a\ frase\ a\ ser\ codificada\ contenha\n\ algum\ caracter\ que\ n\u00E3o\ est\u00E1\ presente\ na\ tabela\ de\ codifica\u00E7\u00E3o.\n
+comment1.params=fraseCodificada\ tabela
+comment1.target=java.lang.String\ decodifique(java.lang.String,\ TabelaDeCodigos)
+comment1.text=\n\ Decodifica\ uma\ frase.\n\n\ @param\ fraseCodificada\ A\ frase\ a\ ser\ decodificada.\n\ @param\ tabela\ A\ Tabela\ de\ Codifica\u00E7\u00E3o\ usada\ para\ decodificar.\n\ @return\ Retorna\ a\ frase\ decodificada\ ou\ null\ caso\ a\ frase\ a\ ser\ decodificada\ contenha\n\ algum\ caracter\ que\ n\u00E3o\ est\u00E1\ presente\ na\ tabela\ de\ codifica\u00E7\u00E3o.\n
+comment2.params=codificar\ fraseOriginal\ tabela
+comment2.target=java.lang.String\ gereNovaFrase(boolean,\ java.lang.String,\ TabelaDeCodigos)
+comment2.text=\n\ Gera\ uma\ nova\ frase\ a\ partir\ de\ uma\ frase\ original.\ A\ frase\ original\ pode\ ser\ tanto\ uma\ frase\n\ a\ ser\ codificada\ quanto\ uma\ frase\ a\ ser\ decodificada.\n\n\ @param\ codificar\ Indica\ se\ o\ objetivo\ \u00E9\ codificar\ ou\ decodificar\ a\ frase\ original.\n\ @param\ fraseOriginal\ A\ frase\ a\ ser\ codificada\ ou\ decodificada.\n\ @param\ tabela\ A\ Tabela\ de\ Codifica\u00E7\u00E3o\ usada\ na\ codifica\u00E7\u00E3o\ ou\ decodifica\u00E7\u00E3o.\n\ @return\ A\ frase\ resultante\ do\ processo\ de\ codifica\u00E7\u00E3o\ ou\ de\ decodifica\u00E7\u00E3o.\ O\ valor\ ser\u00E1\ null\n\ caso\ a\ frase\ original\ n\u00E3o\ possa\ ser\ codificada\ ou\ decodificada.\n
+numComments=3

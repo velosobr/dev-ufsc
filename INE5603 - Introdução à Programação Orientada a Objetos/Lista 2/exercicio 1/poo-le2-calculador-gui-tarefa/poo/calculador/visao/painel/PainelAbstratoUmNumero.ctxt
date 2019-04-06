@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PainelAbstratoUmNumero
+comment1.params=c\ titulo\ nomeBotaoCalcular
+comment1.target=PainelAbstratoUmNumero(poo.calculador.modelo.Calculador,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ definaCampos()
+comment3.params=
+comment3.target=boolean\ podeCalcular()
+comment4.params=
+comment4.target=void\ evCalcular()
+comment5.params=c\ n
+comment5.target=java.lang.String\ executeCalculo(poo.calculador.modelo.Calculador,\ int)
+numComments=6

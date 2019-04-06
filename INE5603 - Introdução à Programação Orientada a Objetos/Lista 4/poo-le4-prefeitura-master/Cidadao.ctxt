@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cidadao
+comment0.text=\n\ Um\ objeto\ desta\ classe\ representa\ um\ cidad\u00E3o.\n
+comment1.params=anoNascimento\ renda
+comment1.target=Cidadao(int,\ int)
+comment1.text=\n\ Cria\ um\ novo\ cidad\u00E3o\ com\ base\ no\ seu\ ano\ de\ nascimento\ e\ renda.\n\n\ @param\ anoNascimento\ O\ ano\ de\ nascimento\ do\ cidad\u00E3o.\n\ @param\ renda\ A\ renda\ do\ cidad\u00E3o.\n
+comment2.params=
+comment2.target=int\ getAnoNascimento()
+comment2.text=\n\ Obt\u00E9m\ o\ ano\ de\ nascimento\ do\ cidad\u00E3o.\n\n\ @return\ Retorna\ o\ ano\ de\ nascimento\ do\ cidad\u00E3o.\n
+comment3.params=
+comment3.target=int\ getRenda()
+comment3.text=\n\ Obt\u00E9m\ a\ renda\ do\ cidad\u00E3o.\n\n\ @return\ Retorna\ a\ renda\ do\ cidad\u00E3o.\n
+comment4.params=anoAtual
+comment4.target=int\ calculeIdade(int)
+comment4.text=\n\ Calcula\ a\ idade\ do\ cidad\u00E3o\ com\ base\ no\ ano\ atual.\n\n\ @param\ anoAtual\ O\ ano\ atual.\n\ @return\ A\ idade\ do\ cidad\u00E3o.\n
+numComments=5

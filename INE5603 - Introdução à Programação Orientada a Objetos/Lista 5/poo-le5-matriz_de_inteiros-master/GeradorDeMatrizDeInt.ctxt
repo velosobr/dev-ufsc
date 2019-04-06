@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=numLinhas\ numColunas\ max
+comment0.target=MatrizDeInt\ gere(int,\ int,\ int)
+comment0.text=\n\ Gera\ uma\ matriz\ de\ inteiros\ com\ dados\ aleat\u00F3rios.\ Os\ dados\ estar\u00E3o\ entre\ [0,max].\n\n\ @param\ numLinhas\ O\ n\u00FAmero\ de\ linhas\ da\ matriz.\n\ @param\ numColunas\ O\ n\u00FAmero\ de\ colunas\ da\ matriz.\n\ @param\ max\ O\ valor\ m\u00E1ximo\ a\ ser\ gerado\ como\ dado\ da\ matriz.\n\ @return\ Retorna\ a\ matriz\ de\ inteiros.\n
+numComments=1

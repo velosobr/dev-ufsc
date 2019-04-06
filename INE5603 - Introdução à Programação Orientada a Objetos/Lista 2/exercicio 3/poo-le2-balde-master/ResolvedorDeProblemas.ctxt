@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ resolvaDeixa2LitrosEmB()
+comment1.params=n
+comment1.target=boolean\ resolvaDeixaNLitrosEmB(int)
+comment2.params=
+comment2.target=boolean\ resolvaDeixa2LitrosEmA()
+comment3.params=
+comment3.target=boolean\ resolvaDeixar4Litros()
+comment4.params=
+comment4.target=boolean\ resolvaDeixar4LitrosVersao2()
+comment5.params=n\ capacidadeA\ capacidadeB
+comment5.target=boolean\ resolvaDeixarNLitrosEmBComCapacidades(int,\ int,\ int)
+numComments=6

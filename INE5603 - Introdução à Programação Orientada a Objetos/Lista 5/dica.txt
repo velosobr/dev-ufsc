@@ -1,0 +1,10 @@
+Prefeitura
+calcule orçamento para renda minima
+
+public int calculeSoma(int[][] matriz){
+	int soma=0;
+	for(int[] linha: matriz)
+		for(int num: linha)
+			soma+=num;
+	return soma;
+}

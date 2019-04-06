@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PainelCopiaNPrimeiros
+comment1.params=ma
+comment1.target=PainelCopiaNPrimeiros(poo.manipuladordearray.modelo.ManipuladorDeArray)
+comment2.params=
+comment2.target=int\ definaTamanhoDoResultado()
+comment3.params=ma\ numeros\ qtd
+comment3.target=java.lang.String\ executeCalculo(poo.manipuladordearray.modelo.ManipuladorDeArray,\ int[],\ int)
+numComments=4

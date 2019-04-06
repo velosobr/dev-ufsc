@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Navio
+comment1.params=qtd\ peso
+comment1.target=Navio(int,\ int)
+numComments=2

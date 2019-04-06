@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Balde
+comment1.params=qtd
+comment1.target=Balde(int)
+comment2.params=
+comment2.target=Balde()
+comment3.params=
+comment3.target=void\ fiqueCheio()
+comment4.params=
+comment4.target=boolean\ estaCheio()
+comment5.params=
+comment5.target=void\ fiqueVazio()
+comment6.params=litros
+comment6.target=void\ addLitros(int)
+comment7.params=
+comment7.target=boolean\ estaVazio()
+comment8.params=
+comment8.target=int\ getQuantidade()
+comment9.params=
+comment9.target=int\ qtdAdd()
+numComments=10

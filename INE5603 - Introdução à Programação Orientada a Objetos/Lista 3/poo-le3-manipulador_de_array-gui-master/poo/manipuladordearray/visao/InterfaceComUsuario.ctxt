@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=InterfaceComUsuario
+comment1.params=ma
+comment1.target=InterfaceComUsuario(poo.manipuladordearray.modelo.ManipuladorDeArray)
+comment2.params=
+comment2.target=javax.swing.JPanel\ definaPainelInicial()
+comment3.params=
+comment3.target=javax.swing.JMenuBar\ definaBarraDeMenu()
+comment4.params=
+comment4.target=javax.swing.JMenu\ definaMenuSemParametro()
+comment5.params=
+comment5.target=javax.swing.JMenu\ definaMenuUmNumero()
+comment6.params=
+comment6.target=javax.swing.JMenu\ definaMenuDoisNumeros()
+comment7.params=
+comment7.target=javax.swing.JMenu\ definaMenuUmArray()
+comment8.params=opcao
+comment8.target=void\ evDefinidoPainel(InterfaceComUsuario.Opcao)
+comment9.params=
+comment9.target=void\ interaja()
+numComments=10
