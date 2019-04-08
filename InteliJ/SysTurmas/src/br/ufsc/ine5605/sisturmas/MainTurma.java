@@ -1,6 +1,6 @@
 package br.ufsc.ine5605.sisturmas;
 
-public class Main {
+public class MainTurma {
 
     public static void main(String[] args) {
 
