@@ -20,17 +20,33 @@ public class Professor extends Pessoa {
         this.codigoFuncional = codigoFuncional;
     }
 
-    public void addOrientacao(Orientacao orientacao){
-        if(orientacao != null && orientacao.getOrientando() != null && orientacao.getOrientador() != null) {
-            this.orientacoes.add(orientacao);
-        }else{
+    public void addOrientacao(Orientacao orientacao) {
+        if (orientacao != null && orientacao.getOrientando() != null && orientacao.getOrientador() != null) {
+            if (!existeOrientacao(orientacao)) {
+                if (orientacao.getOrientador().equals(this)){
+                    this.orientacoes.add(orientacao);
+                }
+            }
+        } else {
             System.out.println("#########entrou na exceção########");
         }
     }
-    public ArrayList<Orientacao> getOrientacao(){
+
+    private boolean existeOrientacao(Orientacao orientacao) {
+        for (Orientacao orientacaoLista : orientacoes) {
+            if (orientacaoLista.getOrientando().equals(orientacao.getOrientando())
+                    && orientacaoLista.getOrientador().equals(orientacao.getOrientador())) {
+                System.out.println("#########entrou na exceção######## - entrou no if do Existe Orientação");
+                return true;
+            }
+        }return false;
+    }
+
+    public ArrayList<Orientacao> getOrientacao() {
         return orientacoes;
     }
-    public void delOrientacao(Orientacao orientacao){
+
+    public void delOrientacao(Orientacao orientacao) {
         this.orientacoes.remove(orientacao);
     }
 }
