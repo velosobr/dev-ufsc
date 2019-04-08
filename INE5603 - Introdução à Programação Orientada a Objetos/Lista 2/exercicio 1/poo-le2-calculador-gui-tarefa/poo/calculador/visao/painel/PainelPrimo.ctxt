@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=PainelPrimo
-comment1.params=c
-comment1.target=PainelPrimo(poo.calculador.modelo.Calculador)
-comment2.params=c\ numero
-comment2.target=java.lang.String\ executeCalculo(poo.calculador.modelo.Calculador,\ int)
-numComments=3

@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=PainelDivide
-comment1.params=c
-comment1.target=PainelDivide(poo.calculador.modelo.Calculador)
-comment2.params=c\ n1\ n2
-comment2.target=java.lang.String\ executeCalculo(poo.calculador.modelo.Calculador,\ int,\ int)
-numComments=3

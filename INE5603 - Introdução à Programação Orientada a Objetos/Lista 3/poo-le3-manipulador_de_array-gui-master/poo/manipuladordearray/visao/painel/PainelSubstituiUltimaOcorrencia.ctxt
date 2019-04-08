@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=PainelSubstituiUltimaOcorrencia
-comment1.params=ma
-comment1.target=PainelSubstituiUltimaOcorrencia(poo.manipuladordearray.modelo.ManipuladorDeArray)
-comment2.params=
-comment2.target=int\ definaTamanhoDoResultado()
-comment3.params=ma\ numeros\ numero\ substituto
-comment3.target=java.lang.String\ executeCalculo(poo.manipuladordearray.modelo.ManipuladorDeArray,\ int[],\ int,\ int)
-numComments=4

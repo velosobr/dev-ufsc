@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=PainelAbstratoSemParametro
-comment1.params=ma\ titulo\ nomeBotao
-comment1.target=PainelAbstratoSemParametro(poo.manipuladordearray.modelo.ManipuladorDeArray,\ java.lang.String,\ java.lang.String)
-comment2.params=
-comment2.target=void\ definaCampos()
-comment3.params=
-comment3.target=boolean\ podeCalcular()
-numComments=4
