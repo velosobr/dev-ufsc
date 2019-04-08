@@ -2,463 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41220a7e-61e7-4c2c-8cf7-aa88e8be6764" name="Default Changelist" comment="this is inteliJ">
-      <change afterPath="$PROJECT_DIR$/../sisturmas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sisturmas/src/sisturmas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sisturmas/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sisturmas/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sisturmas/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sisturmas/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sisturmas/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sisturmas/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sisturmas/src/sisturmas/Sisturmas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.Readme.md.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/dev-ufsc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/Screenshot_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/modelo/Calculador-LinoVeloso-PC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/modelo/Calculador.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/modelo/Calculador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/modelo/package-LinoVeloso-PC.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/modelo/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/package-DESKTOP-412OCMN.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/principal/Programa.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/principal/Programa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/principal/package-DESKTOP-412OCMN.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/principal/package-LinoVeloso-PC.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/principal/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/InterfaceComUsuario.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/InterfaceComUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstrato.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstrato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstratoDoisNumeros.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstratoDoisNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstratoTresNumeros.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstratoTresNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstratoUmNumero.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAbstratoUmNumero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAmigos.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelAmigos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelBissexto.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelBissexto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelComposto.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelComposto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelDivide.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelDivide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelDivisivelPor.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelDivisivelPor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMDC.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMDC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMaiorQue.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMaiorQue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMediaDeTres.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMediaDeTres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMenorDeTres.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMenorDeTres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMultiplica.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelMultiplica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelPar.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelPar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelPrimo.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelPrimo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelSomaDeTres.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelSomaDeTres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelSomaDivisores.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/PainelSomaDivisores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/calculador/visao/painel/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/poo-le2-calculador-gui-tarefa/poo/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 1/programaCalculador.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relogio/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relogio/Relogio.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relogio/Relogio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relogio/TestaRelogio.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relogio/TestaRelogio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relogio/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relógio/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relógio/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Relógio/relógio/relogio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/Screenshot_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/poo-le2-relogio-master/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/poo-le2-relogio-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/poo-le2-relogio-master/Relogio.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/poo-le2-relogio-master/Relogio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 2/poo-le2-relogio-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/Screenshot_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/poo-le2-balde-master/Balde.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/poo-le2-balde-master/Balde.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/poo-le2-balde-master/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/poo-le2-balde-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/poo-le2-balde-master/ResolvedorDeProblemas.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/poo-le2-balde-master/ResolvedorDeProblemas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/poo-le2-balde-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/projeto_balde/Balde.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/projeto_balde/Balde.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/projeto_balde/ProgramaTestaBalde.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/projeto_balde/ProgramaTestaBalde.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/projeto_balde/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 2/exercicio 3/projeto_balde/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/ManipuladorDeArray/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/ManipuladorDeArray/Screenshot_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/ManipuladorDeArray/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/Screenshot_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/Enigma.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/Enigma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/Screenshot_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/TabelaDeCodigos.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/TabelaDeCodigos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-enigma-master/poo-le3-enigma-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/modelo/ManipuladorDeArray-LinoVeloso-PC.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/modelo/ManipuladorDeArray-LinoVeloso-PC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/modelo/ManipuladorDeArray.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/modelo/ManipuladorDeArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/modelo/package-LinoVeloso-PC.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/modelo/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/principal/Programa.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/principal/Programa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/principal/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/teste/TestadorDeManipuladorDeArray.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/teste/TestadorDeManipuladorDeArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/teste/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/InterfaceComUsuario.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/InterfaceComUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/package-LinoVeloso-PC.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstrato.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstrato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoDoisNumeros.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoDoisNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoSemParametro.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoSemParametro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoUmArray.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoUmArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoUmNumero.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelAbstratoUmNumero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelCopia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelCopia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelCopiaNPrimeiros.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelCopiaNPrimeiros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelDuplique.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelDuplique.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelEmPosicoes.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelEmPosicoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelInverta.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelInverta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMaior.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMaior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMedia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMedia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMultiplicadoPorFator.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMultiplicadoPorFator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMultipliquePorFator.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelMultipliquePorFator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelNumerosNoIntervalo.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelNumerosNoIntervalo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPares.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPares.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelParte.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelParte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPosicaoMaior.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPosicaoMaior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPosicoes.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPosicoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPosicoesImpares.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPosicoesImpares.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPossuiPar.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPossuiPar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPrimeiraPosicao.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPrimeiraPosicao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPrimeiroEUltimo.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelPrimeiroEUltimo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelQuantasOcorrencias.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelQuantasOcorrencias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelQuantidadeAcimaLimite.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelQuantidadeAcimaLimite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSemOcorrencias.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSemOcorrencias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSemRepeticoes.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSemRepeticoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSoma.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSoma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSubstituiOcorrencias.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSubstituiOcorrencias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSubstituiPrimeiraOcorrencia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSubstituiPrimeiraOcorrencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSubstituiUltimaOcorrencia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelSubstituiUltimaOcorrencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelUne.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/PainelUne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/manipuladordearray/visao/painel/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-master/poo/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/modelo/ManipuladorDeArray.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/modelo/ManipuladorDeArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/modelo/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/principal/Programa.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/principal/Programa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/principal/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/teste/TestadorDeManipuladorDeArray.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/teste/TestadorDeManipuladorDeArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/teste/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/InterfaceComUsuario.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/InterfaceComUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstrato.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstrato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoDoisNumeros.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoDoisNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoSemParametro.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoSemParametro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoUmArray.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoUmArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoUmNumero.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelAbstratoUmNumero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelCopia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelCopia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelCopiaNPrimeiros.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelCopiaNPrimeiros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelDuplique.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelDuplique.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelEmPosicoes.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelEmPosicoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelInverta.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelInverta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMaior.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMaior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMedia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMedia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMultiplicadoPorFator.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMultiplicadoPorFator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMultipliquePorFator.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelMultipliquePorFator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelNumerosNoIntervalo.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelNumerosNoIntervalo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPares.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPares.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelParte.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelParte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPosicaoMaior.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPosicaoMaior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPosicoes.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPosicoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPosicoesImpares.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPosicoesImpares.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPossuiPar.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPossuiPar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPrimeiraPosicao.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPrimeiraPosicao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPrimeiroEUltimo.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelPrimeiroEUltimo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelQuantasOcorrencias.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelQuantasOcorrencias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelQuantidadeAcimaLimite.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelQuantidadeAcimaLimite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSemOcorrencias.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSemOcorrencias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSemRepeticoes.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSemRepeticoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSoma.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSoma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSubstituiOcorrencias.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSubstituiOcorrencias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSubstituiPrimeiraOcorrencia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSubstituiPrimeiraOcorrencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSubstituiUltimaOcorrencia.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelSubstituiUltimaOcorrencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelUne.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/PainelUne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/manipuladordearray/visao/painel/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 3/poo-le3-manipulador_de_array-gui-tarefa/poo/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiro/Screenshot_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiro/poo-le4-guerreiro/Guerreiro.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiro/poo-le4-guerreiro/Guerreiro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiro/poo-le4-guerreiro/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiro/poo-le4-guerreiro/Tribo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiro/poo-le4-guerreiro/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiros-master/Guerreiro.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiros-master/Guerreiro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiros-master/Tribo.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiros-master/Tribo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-guerreiros-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio-master/Container.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio-master/Container.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio-master/Navio.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio-master/Navio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio-master/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/Container.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/Container.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/Navio.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/Navio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/Screenshot_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-navio/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/Cidadao.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/Cidadao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/GeradorDePopulacao.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/GeradorDePopulacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/Prefeitura.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/Prefeitura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura/Screenshot_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 4/poo-le4-prefeitura/Screenshot_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/dica.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros-master/GeradorDeMatrizDeInt.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros-master/GeradorDeMatrizDeInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros-master/MatrizDeInt.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros-master/MatrizDeInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros-master/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-matriz_de_inteiros/Screenshot_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha-master/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha-master/Tabuleiro.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha-master/Tabuleiro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha-master/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha/Programa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha/README.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha/Screenshot_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha/TabuleiroJV.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha/TabuleiroJV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5603 - Introdução à Programação Orientada a Objetos/Lista 5/poo-le5-tabuleiro_jogo_da_velha/package.bluej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/Animals/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/Animals/Ave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/Animals/Cachorro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/Animals/Canarinho.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/Animals/Gato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/Animals/Mamifero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/Animals/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/SisTurmas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../INE5605 - DSOO1/SisTurmas/src/br/ufsc/ine5605/sisturmas/SisTurmas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/1e/403899067fb000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/20/50e068157fb000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/81/f006c20380b000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/a5/604d177b7fb000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c5/b018a5097fb000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c7/e0018a3c80b000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/f6/b09c6b0980b000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/fe/c02d7d1f80b000181a9e935157c5d1d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HelloWord/.indexes/af/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HelloWord/.indexes/e4/d2/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HelloWord/.indexes/e4/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HelloWord/org.eclipse.jdt.core/state.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/4.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/Hello.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/HelloWorld.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/segments_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/write.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.si" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/segments_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/write.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/3394778100.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/646308851.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/index.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HelloWord/2018/9/36/refactorings.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HelloWord/2018/9/36/refactorings.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.0.20180606-2036.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.recommenders.news.impl/downloads/http%3A%2F%2Fwww.eclipse.org%2Fhome%2Feclipsenews.rss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.recommenders.news.impl/downloads/http%3A%2F%2Fwww.eclipse.org%2Frecommenders%2Ffeeds%2Fide.rss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ui.cheatsheets/history.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ui.cheatsheets/org.eclipse.jdt.helloworld.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.metadata/version.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/caches/identified-project-coordinates.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/caches/manual-mappings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.fnm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.frq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.nrm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.prx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.tii" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/_0.tis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/segments.gen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/segments_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/HelloWord/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/HelloWord/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/HelloWord/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/HelloWord/bin/hello/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pessoal-workspace/HelloWord/src/hello/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../readme.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Autor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Capitulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Editora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Biblioteca/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sisturmas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sisturmas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sisturmas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sisturmas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sisturmas/sisturmas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sisturmas/src/sisturmas.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -467,22 +26,79 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="147">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -490,17 +106,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Biblioteca/Autor.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/AlunoImpl.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -544,6 +166,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.ufsc.ine5605.sisturmas" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -581,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554694765409</updated>
-      <workItem from="1554694773675" duration="911000" />
+      <workItem from="1554694773675" duration="4675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="911000" />
+    <option name="totallyTimeSpent" value="4675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -598,7 +226,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10783262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -608,7 +236,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33777776" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,7 +244,7 @@
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" weight="0.54923415" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -632,12 +260,157 @@
     <option name="LAST_COMMIT_MESSAGE" value="this is inteliJ" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Biblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Livro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Capitulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Editora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Autor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/AlunoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SysTurmas</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
