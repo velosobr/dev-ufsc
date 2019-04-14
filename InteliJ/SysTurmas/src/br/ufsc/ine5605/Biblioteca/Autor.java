@@ -1,23 +1,23 @@
 package br.ufsc.ine5605.Biblioteca;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Autor {
-    private int codigo;
-    private String nome;
-    private List<Livro> livros;
+    private String nome, codigo;
+    private ArrayList<Livro> livros;
 
 
-    public Autor(int codigo, String nome) {
+    public Autor(String codigo, String nome) {
         this.codigo = codigo;
         this.nome = nome;
     }
 
-    public int getCodigo() {
+    public String  getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(String  codigo) {
         this.codigo = codigo;
     }
 

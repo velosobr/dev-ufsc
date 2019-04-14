@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41220a7e-61e7-4c2c-8cf7-aa88e8be6764" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+    <list default="true" id="41220a7e-61e7-4c2c-8cf7-aa88e8be6764" name="Default Changelist" comment="primeira parte da aula dia 120419">
+      <change afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Controle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SysTurmas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SysTurmas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Capitulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Capitulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Editora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Editora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/MainTurma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,20 +39,15 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -53,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Capitulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="21">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="26" />
               <folding>
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
@@ -69,17 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Controle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1233">
+              <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -87,38 +83,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Livro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="820">
+              <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1802#1803#0" expanded="true" />
-                <element signature="e#1887#1888#0" expanded="true" />
-                <element signature="e#1956#1957#0" expanded="true" />
-                <element signature="e#2045#2046#0" expanded="true" />
-                <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="e#2221#2222#0" expanded="true" />
-                <element signature="e#2280#2281#0" expanded="true" />
-                <element signature="e#2357#2358#0" expanded="true" />
-                <element signature="e#2419#2420#0" expanded="true" />
-                <element signature="e#2499#2500#0" expanded="true" />
-                <element signature="e#2552#2553#0" expanded="true" />
-                <element signature="e#2617#2618#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Professor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-end-line="52" />
-              <folding>
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="method#Livro#0;class#Livro#0" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1233#1234#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1360#1361#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +120,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Editora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,11 +140,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Autor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="399">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#169#176#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1698#1699#0" expanded="true" />
+                <element signature="e#1734#1735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,10 +179,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>return</find>
+      <find>list</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -165,21 +199,24 @@
         <option value="$PROJECT_DIR$/src/Biblioteca/Autor.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Main.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/AlunoImpl.java" />
-        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java" />
-        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java" />
-        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/ProfessorTest.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Aluno.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Orientacao.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Pessoa.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Main.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Professor.java" />
-        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java" />
-        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Main.java" />
-        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Editora.java" />
-        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Autor.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Capitulo.java" />
         <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Livro.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Editora.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Autor.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/MainTurma.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/ControleTest.java" />
+        <option value="$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Controle.java" />
       </list>
     </option>
   </component>
@@ -189,7 +226,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -295,13 +332,6 @@
             </path>
             <path>
               <item name="SysTurmas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SysTurmas" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ine5605" type="462c0819:PsiDirectoryNode" />
-              <item name="sisorientacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SysTurmas" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -321,10 +351,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.ufsc.ine5605.Biblioteca" />
       <recent name="br.ufsc.ine5605.sisorientacao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -404,7 +435,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554694765409</updated>
       <workItem from="1554694773675" duration="18826000" />
-      <workItem from="1555040493117" duration="3838000" />
+      <workItem from="1555040493117" duration="21794000" />
     </task>
     <task id="LOCAL-00001" summary="thats my update 1257080419">
       <created>1554739101830</created>
@@ -434,17 +465,23 @@
       <option name="project" value="LOCAL" />
       <updated>1555093902234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="primeira parte da aula dia 120419">
+      <created>1555093916898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555093916898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22664000" />
+    <option name="totallyTimeSpent" value="40620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49914822" weight="0.44310722" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49914822" visible="true" weight="0.1380597" />
       <window_info id="Structure" order="1" sideWeight="0.5008518" side_tool="true" weight="0.47782704" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -454,17 +491,18 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.33777776" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839056" visible="true" weight="0.34019503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49892703" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49781182" weight="0.3261105" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50160944" side_tool="true" visible="true" weight="0.34354487" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49892703" weight="0.3288889" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021882" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49892703" weight="0.32502708" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946353" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989059" weight="0.32932165" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -475,6 +513,38 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49914822" visible="true" weight="0.1380597" />
+      <window_info id="Structure" order="1" sideWeight="0.5008518" side_tool="true" weight="0.47782704" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.33694476" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49781182" weight="0.3261105" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021882" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49892703" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989059" weight="0.32932165" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32932165" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.54923415" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -526,35 +596,13 @@
     <MESSAGE value="primeira parte da aula dia 120419" />
     <option name="LAST_COMMIT_MESSAGE" value="primeira parte da aula dia 120419" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SysTurmas$Main__2_.ic" NAME="Main (2) Coverage Results" MODIFIED="1555261644826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.ufsc.ine5605.Biblioteca.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/AlunoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/MainTurma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/ProfessorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -601,63 +649,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2541">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="469">
+          <caret line="47" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/MainTurma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Turma.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="336">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisturmas/Controle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2221#2222#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2499#2500#0" expanded="true" />
-            <element signature="e#2552#2553#0" expanded="true" />
-            <element signature="e#2617#2618#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Capitulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="21">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="26" />
           <folding>
             <element signature="e#256#257#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
@@ -671,45 +736,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="820">
+          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
           <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Autor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#Livro#0;class#Livro#0" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Editora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/sisorientacao/Professor.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Autor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-end-line="52" />
+        <state relative-caret-position="399">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Biblioteca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#169#176#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/ControleTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufsc/ine5605/Biblioteca/Controle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1233">
+          <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
         </state>
       </provider>
     </entry>

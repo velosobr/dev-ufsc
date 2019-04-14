@@ -11,4 +11,10 @@ public class Aluno {
         this.matricula = matricula;
         this.turmas = new ArrayList<>();
     }
+
+    public void getMatricula() {
+    }
+
+    public void addTurma(Turma turma1) {
+    }
 }

@@ -8,8 +8,8 @@ public class Livro {
     private String titulo;
     private int ano;
     private Editora editora;
-    private List<Autor> autores = new ArrayList<>();
-    private List<Capitulo> capitulos = new ArrayList<>();
+    private ArrayList<Autor> autores = new ArrayList<>();
+    private ArrayList<Capitulo> capitulos = new ArrayList<>();
 
 
     public Livro(int codigo, String titulo, int ano, Editora editora, Autor autor, int numeroCapitulo, String tituloCapitulo) {
@@ -23,37 +23,6 @@ public class Livro {
 
     }
 
-    public void incluirCapitulo(int numeroCapitulo, String tituloCapitulo) {
-        for (Capitulo cap : capitulos) {
-            if (cap.getTitulo().equals(tituloCapitulo) || cap.getNumero() == numeroCapitulo || cap.getTitulo() == null) {
-                if (cap.getTitulo().equals(tituloCapitulo) || cap.getNumero() == numeroCapitulo)
-                    System.out.println("Capitulo já existe");
-                if (cap.getTitulo() == null)
-                    System.out.println("Você enviou um titulo vazio");
-                return;
-
-            } else {
-
-                Capitulo capitulo = new Capitulo(numeroCapitulo, tituloCapitulo);
-                capitulos.add(capitulo);
-            }
-
-        }
-
-    }
-
-    public void excluirCapitulo(String tituloCapitulo) {
-        if (tituloCapitulo != null) {
-            for (Capitulo capEx : capitulos) {
-                if (tituloCapitulo.equals(capEx.getTitulo()))
-                    capitulos.remove(capEx);
-            }
-        }
-    }
-
-    public void incluirAutor(Autor autor) {
-        autores.add(autor);
-    }
 
     public Editora getEditora() {
         return editora;
@@ -67,15 +36,15 @@ public class Livro {
         return autores;
     }
 
-    public void setAutores(List<Autor> autores) {
+    public void setAutores(ArrayList<Autor> autores) {
         this.autores = autores;
     }
 
-    public List<Capitulo> getCapitulos() {
+    public ArrayList<Capitulo> getCapitulos() {
         return capitulos;
     }
 
-    public void setCapitulos(List<Capitulo> capitulos) {
+    public void setCapitulos(ArrayList<Capitulo> capitulos) {
         this.capitulos = capitulos;
     }
 
@@ -102,4 +71,50 @@ public class Livro {
     public void setAno(int ano) {
         this.ano = ano;
     }
+
+    public void incluirCapitulo(int numeroCap, String tituloCap) {
+        for (Capitulo capIn : capitulos)
+            if (capIn.getNumero() == numeroCap || capIn.getTitulo().equals(tituloCap) || tituloCap == null)
+                return;
+        Capitulo capinc = new Capitulo(numeroCap, tituloCap);
+        capitulos.add(capinc);
+    }
+
+    public void excluirCapitulo(String tituloCapitulo) {
+        if (tituloCapitulo != null) {
+            for (Capitulo capEx : capitulos) {
+                if (tituloCapitulo.equals(capEx.getTitulo()))
+                    capitulos.remove(capEx);
+            }
+        } else {
+            System.out.println("Titulo está vazio");
+        }
+    }
+
+    public void incluirAutor(Autor autor) {
+       /* if(autor != null){
+            for (Autor autorIn: autores) {
+
+            }
+        }
+        */
+        if (!autores.contains(autor) || autor != null) {
+            autores.add(autor);
+        }
+    }
+
+    public void excluirAutor(Autor autor) {
+        if (autores.contains(autor)) {
+            autores.remove(autor);
+        }
+    }
+
+    public Capitulo findCapituloByTitulo(String capTitulo) {
+        for (Capitulo capIn : capitulos) {
+            if (capIn.getTitulo().equals(capTitulo))
+                return capIn;
+        }
+        return null;
+    }
+
 }

@@ -12,5 +12,12 @@ public class Turma {
         this.codigoTurma = codigoTurma;
         this.alunos = new ArrayList<>();
     }
+
+    public String getCodigo() {
+        return null;
+    }
+
+    public void addAluno(Aluno aluno1) {
+    }
 }
 

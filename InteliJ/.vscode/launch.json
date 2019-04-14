@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainTurma",
+            "request": "launch",
+            "mainClass": "br.ufsc.ine5605.sisturmas.MainTurma"
+        }
+    ]
+}
