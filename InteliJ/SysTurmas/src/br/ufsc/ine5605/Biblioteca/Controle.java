@@ -31,7 +31,8 @@ public class Controle {
             System.out.println("4 - Listar Livros");
             System.out.println("5 - Listar Autor");
             System.out.println("6 - Listar Editora");
-
+            System.out.println("7 - Mostrar Editora by ID");
+            System.out.println("\n");
             System.out.println("0 - Encerra o Sistema");
             System.out.println("---------------------------");
             System.out.println("Opção: ");
@@ -56,22 +57,18 @@ public class Controle {
                     listaLivros();
                     break;
                 case (5):
-
                     listaAutores();
+                    break;
                 case (6):
                     listaEditora();
+                    break;
                 case (7):
                     getEditoraById();
+                    break;
             }
         } while (opcao != 0);
     }
 
-    private void listaLivros() {
-
-    }
-
-    private void listaAutores() {
-    }
 
     private void incluiEditora() {
         System.out.println("---------- INSERINDO EDITORA ----------");
@@ -96,8 +93,10 @@ public class Controle {
         String idEditora = teclado.nextLine();
         for (Editora edIn: editoras)
             if (idEditora != null)
-                if (edIn.getCodigo().equals(idEditora))
+                if (edIn.getCodigo().equals(idEditora)) {
                     System.out.println(edIn.getNome());
+                    return edIn.getNome();
+                }
 
         return null;
     }
@@ -112,6 +111,30 @@ public class Controle {
         autores.add(autor);
     }
 
-    private void incluirLivro() {
+    private void listaAutores() {
+        for (Autor auIn:
+                autores) {
+            System.out.println("Nome: "+auIn.getNome() +"\nID: "+ auIn.getCodigo());
+
+        }
     }
+
+    private void incluirLivro() {
+        System.out.println("---------- INSERINDO LIVRO ----------");
+        System.out.println("id do autor: ");
+        String codigoAutor= teclado.nextLine();
+        System.out.println("Nome do autor: ");
+        String nomeAutor = teclado.nextLine();
+        int codigo;
+        String titulo;
+        int ano;
+        Editora editora;
+        Autor autor;
+        Livro livro = new Livro(codigo, titulo, ano, editora, autor);
+    }
+    private void listaLivros() {
+
+    }
+
+
 }

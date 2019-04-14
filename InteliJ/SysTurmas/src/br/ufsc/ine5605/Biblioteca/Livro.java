@@ -92,15 +92,14 @@ public class Livro {
     }
 
     public void incluirAutor(Autor autor) {
-       /* if(autor != null){
+        if(autor != null){
             for (Autor autorIn: autores) {
-
+                if (autorIn.getCodigo()!=autor.getCodigo())
+                    autores.add(autor);
             }
         }
-        */
-        if (!autores.contains(autor) || autor != null) {
-            autores.add(autor);
-        }
+
+
     }
 
     public void excluirAutor(Autor autor) {
