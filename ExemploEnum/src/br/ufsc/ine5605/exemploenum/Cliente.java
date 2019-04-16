@@ -13,11 +13,17 @@ public class Cliente {
     private int codigo;
     private String nome;
     private float saldoDevedor;
-
-    public Cliente(int codigo, String nome, float saldoDevedor) {
+    private int descontoPadrao;
+    //private String tipoCliente;
+    private ControladorPrincipal.TIPOSCLIENTES tipoCliente;
+   
+    public Cliente(int codigo, String nome, float saldoDevedor, ControladorPrincipal.TIPOSCLIENTES tipoCliente) {
         this.codigo = codigo;
         this.nome = nome;
         this.saldoDevedor = saldoDevedor;
+        this.descontoPadrao = 0;
+        this.tipoCliente = tipoCliente;
+    
     }
 
     public int getCodigo() {
@@ -42,6 +48,22 @@ public class Cliente {
 
     public void setSaldoDevedor(float saldoDevedor) {
         this.saldoDevedor = saldoDevedor;
+    }
+    
+    public int getDescontoPadrao() {
+        return descontoPadrao;
+    }
+
+    public void setDescontoPadrao(int descontoPadrao) {
+        this.descontoPadrao = descontoPadrao;
+    }
+
+    public ControladorPrincipal.TIPOSCLIENTES getTipoCliente() {
+        return tipoCliente;
+    }
+
+    public void setTipoCliente(ControladorPrincipal.TIPOSCLIENTES tipoCliente) {
+        this.tipoCliente = tipoCliente;
     }
     
     
