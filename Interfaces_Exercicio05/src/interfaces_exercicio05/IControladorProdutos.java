@@ -1,3 +1,5 @@
+package interfaces_exercicio05;
+
 /*
  * Universidade Federal de Santa Catarina.
  * CTC - Centro Tecnologico - http://ctc.ufsc.br

@@ -1,3 +1,5 @@
+package interfaces_exercicio05;
+
 /*
  * Universidade Federal de Santa Catarina.
  * CTC - Centro Tecnologico - http://ctc.ufsc.br
@@ -11,7 +13,10 @@
  */
 public interface ICategoriaProduto {
 
-    public String getNome();
-    public void setNome(String nome);
+    String getNome();
     
+    void setNome(String nome);
+
+    int getCodito();
+    void setCodigo();
 }
