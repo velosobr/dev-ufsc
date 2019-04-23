@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sisturmas;
+package br.ufsc.ine5605.sisturmas;
 
 /**
  *
- * @author Linnety3
+ * @author 07787552905
  */
-public class Sisturmas {
+public class SisTurmas {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Teste 2");        // TODO code application logic here
+        Controle controle = new Controle();
+        controle.inicia();
     }
     
 }
