@@ -46,8 +46,7 @@ public class ControladorPrincipal {
         }
         
         
-        telaCliente.exibeDadosCliente(cliente.getCodigo(), cliente.getNome(), 
-                cliente.getSaldoDevedor(), cliente.getDescontoPadrao(), cliente.getTipoCliente());
+        telaCliente.exibeDadosCliente(cliente.getCodigo(), cliente.getNome(), cliente.getSaldoDevedor(), cliente.getDescontoPadrao(), cliente.getTipoCliente());
         //Verificar se o cliente já existe na lista, se codigo !=0, se..., se saldo devedor não é nulo ou negativo;
         clientes. add(cliente);
     }
