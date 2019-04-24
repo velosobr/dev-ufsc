@@ -50,12 +50,12 @@ public class ControladorProdutos implements IControladorProdutos{
         return produto;
     }
 
-    public String verificaCategoria(int codCateg) {
+    public CategoriaProduto verificaCategoriaByCodigo(int codCateg) {
       for (CategoriaProduto cpIn : categorias)
             if (codCateg != 0)
                 if (cpIn.getCodito() == codCateg) {
                     System.out.println(cpIn.getNome());
-                    return cpIn.getNome();
+                    return cpIn;
                 }
 
         return null;

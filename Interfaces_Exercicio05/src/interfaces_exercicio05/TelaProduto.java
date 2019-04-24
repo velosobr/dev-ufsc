@@ -58,7 +58,7 @@ class TelaProduto {
 
     private void incluiProduto() {
         System.out.println("----------Incluindo produto ------------");
-     
+
         System.out.println("Digite o CODIGO do produto: ");
         int codigo = recebeValorInteiro();
 
@@ -81,13 +81,13 @@ class TelaProduto {
     }
 
     private void incluiCategoria() {
-         System.out.println("Digite o codigo da categoria: ");
+        System.out.println("Digite o codigo da categoria: ");
         int codigo = recebeValorInteiro();
 
         System.out.println("Digite o nome da categoria: ");
         String nome = recebeValorString();
-     
-       controladorProdutos.incluiCategoriaProduto(codigo, nome);
+
+        controladorProdutos.incluiCategoriaProduto(codigo, nome);
     }
 
     private void updatePrice() {
@@ -98,8 +98,6 @@ class TelaProduto {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    
-    
     private int recebeValorInteiro() {
         int valor = 0;
 
@@ -128,7 +126,8 @@ class TelaProduto {
         return teclado.nextLine();
     }
 
-   /* private CategoriaProduto receberCategoria() {
+    /**
+     * private CategoriaProduto receberCategoria() {
         
         System.out.println("Digite o codigo da categoria: ");
         int codigo = recebeValorInteiro();
@@ -140,16 +139,23 @@ class TelaProduto {
         CategoriaProduto catProdTemp=null;
         return catProdTemp;
     }
-*/
+     */
     
     private CategoriaProduto receberCategoria() {
-        System.out.println("---------- BUSCANDO UMA CATEGORIA PELO CODIGO ----------");
-        System.out.println("Digite o codigo da editora: ");
+       CategoriaProduto cp = null;
+       //implementar um contador para resolver a que~tão do laço;
+       int cont=0;
+        do{ 
+           System.out.println("---------- INSIRA O CODIGO DA CATEGORIA DESTE PRODUTO ----------");
+        System.out.println("Digite o codigo da CATEGORIA: ");
         int codCateg = recebeValorInteiro();
         
-        controladorProdutos.verificaCategoria(codCateg);
-        CategoriaProduto cp = null;
-        return cp;
+        cp = controladorProdutos.verificaCategoriaByCodigo(codCateg);
+        
+       
+       }while(cp == null);
+        
+       return cp;
     }
 
 }
