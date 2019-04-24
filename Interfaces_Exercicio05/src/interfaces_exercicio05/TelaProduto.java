@@ -45,8 +45,10 @@ class TelaProduto {
                     incluiCategoria();
                     break;
                 case (3):
+                    getProdutoByCodigo();
                     break;
                 case (4):
+                    updatePrice();
                     break;
             }
 
@@ -54,6 +56,50 @@ class TelaProduto {
 
     }
 
+    private void incluiProduto() {
+        System.out.println("----------Incluindo produto ------------");
+     
+        System.out.println("Digite o CODIGO do produto: ");
+        int codigo = recebeValorInteiro();
+
+        System.out.println("Digite o NOME do produto: ");
+        String nome = recebeValorString();
+
+        System.out.println("Digite a DESCRICAO do produto: ");
+        String descricao = recebeValorString();
+
+        System.out.println("Digite o PRECO do produto: ");
+        float preco = recebeValorFloat();
+
+        System.out.println("Digite a QUANTIDADE do produto: ");
+        int quantidade = recebeValorInteiro();
+
+        CategoriaProduto categoria = receberCategoria();
+
+        controladorProdutos.incluiProduto(codigo, nome, descricao, preco, quantidade, categoria);
+
+    }
+
+    private void incluiCategoria() {
+         System.out.println("Digite o codigo da categoria: ");
+        int codigo = recebeValorInteiro();
+
+        System.out.println("Digite o nome da categoria: ");
+        String nome = recebeValorString();
+     
+       controladorProdutos.incluiCategoriaProduto(codigo, nome);
+    }
+
+    private void updatePrice() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private void getProdutoByCodigo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    
+    
     private int recebeValorInteiro() {
         int valor = 0;
 
@@ -82,44 +128,28 @@ class TelaProduto {
         return teclado.nextLine();
     }
 
-    private CategoriaProduto recebeCategoria() {
+   /* private CategoriaProduto receberCategoria() {
+        
         System.out.println("Digite o codigo da categoria: ");
-        int Codigo = recebeValorInteiro();
+        int codigo = recebeValorInteiro();
 
         System.out.println("Digite o nome da categoria: ");
         String nome = recebeValorString();
-     
-        CategoriaProduto catProdTemp = new CategoriaProduto(Codigo, nome);
-
+       
+        
+        CategoriaProduto catProdTemp=null;
         return catProdTemp;
     }
-
-    private void incluiProduto() {
-        System.out.println("----------Incluindo produto ------------");
-        System.out.println("Digite o CODIGO do produto: ");
-        int codigo = recebeValorInteiro();
-
-        System.out.println("Digite o NOME do produto: ");
-        String nome = recebeValorString();
-
-        System.out.println("Digite a DESCRICAO do produto: ");
-        String descricao = recebeValorString();
-
-        System.out.println("Digite o PRECO do produto: ");
-        float preco = recebeValorFloat();
-
-        System.out.println("Digite o codigo do produto: ");
-        int quantidade = recebeValorInteiro();
-
-        System.out.println("Digite o codigo do produto: ");
-        CategoriaProduto categoria = recebeCategoria();
-
-        controladorProdutos.incluiProduto(codigo, nome, descricao, preco, quantidade, categoria);
-
-    }
-
-    private void incluiCategoria() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+*/
+    
+    private CategoriaProduto receberCategoria() {
+        System.out.println("---------- BUSCANDO UMA CATEGORIA PELO CODIGO ----------");
+        System.out.println("Digite o codigo da editora: ");
+        int codCateg = recebeValorInteiro();
+        
+        controladorProdutos.verificaCategoria(codCateg);
+        CategoriaProduto cp = null;
+        return cp;
     }
 
 }

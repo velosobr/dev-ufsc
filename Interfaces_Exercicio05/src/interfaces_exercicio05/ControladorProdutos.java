@@ -13,8 +13,8 @@ import java.util.ArrayList;
  */
 public class ControladorProdutos implements IControladorProdutos{
 
-    //public enum TIPOSCLIENTES {ESPECIAL, COMUM, INADIMPLENTE};
     private ArrayList<Produto> produtos;
+    private ArrayList<CategoriaProduto> categorias;
     private TelaProduto telaProduto;
     
     public ControladorProdutos() {
@@ -39,6 +39,7 @@ public class ControladorProdutos implements IControladorProdutos{
     @Override
     public ICategoriaProduto incluiCategoriaProduto(int codigo, String nome) {
        CategoriaProduto catProd = new CategoriaProduto(codigo, nome);
+       categorias.add(catProd);
        return catProd;
     }
 
@@ -47,6 +48,17 @@ public class ControladorProdutos implements IControladorProdutos{
         Produto produto = new Produto(codigo, nome, descricao, preco, quantidade, categoria);
         produtos.add(produto);
         return produto;
+    }
+
+    public String verificaCategoria(int codCateg) {
+      for (CategoriaProduto cpIn : categorias)
+            if (codCateg != 0)
+                if (cpIn.getCodito() == codCateg) {
+                    System.out.println(cpIn.getNome());
+                    return cpIn.getNome();
+                }
+
+        return null;
     }
     
       

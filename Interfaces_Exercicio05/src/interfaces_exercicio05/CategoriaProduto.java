@@ -5,12 +5,11 @@ package interfaces_exercicio05;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Linnety3
  */
-public class CategoriaProduto implements ICategoriaProduto{
+public class CategoriaProduto implements ICategoriaProduto {
 
     private int Codigo;
     private String nome;
@@ -19,25 +18,25 @@ public class CategoriaProduto implements ICategoriaProduto{
         this.Codigo = Codigo;
         this.nome = nome;
     }
-    
-    
-    
+
+    @Override
     public String getNome() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.nome;
     }
 
+    @Override
     public void setNome(String nome) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public int getCodito() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.Codigo;
     }
 
     @Override
     public void setCodigo() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
 }
