@@ -19,24 +19,16 @@ public class CategoriaProduto implements ICategoriaProduto {
         this.nome = nome;
     }
 
-    @Override
     public String getNome() {
         return this.nome;
     }
 
-    @Override
     public void setNome(String nome) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.nome = nome;
     }
 
-    @Override
     public int getCodito() {
-        return this.Codigo;
-    }
-
-    @Override
-    public void setCodigo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    return this.Codigo;
     }
 
 }

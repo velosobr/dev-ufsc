@@ -17,6 +17,5 @@ public interface ICategoriaProduto {
     
     void setNome(String nome);
 
-    int getCodito();
-    void setCodigo();
+    ;
 }

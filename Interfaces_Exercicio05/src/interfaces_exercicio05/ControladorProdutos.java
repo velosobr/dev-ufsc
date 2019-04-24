@@ -28,12 +28,17 @@ public class ControladorProdutos implements IControladorProdutos{
 
     @Override
     public void atualizaPrecos(float inflacao) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        for(Produto prodIn: produtos)
+            prodIn.setPreco( prodIn.getPreco()*(1+inflacao/100f));
+        
     }
 
     @Override
     public IProduto getProdutoPeloCodigo(int codigo) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        for(Produto prodIn: produtos)
+            if(prodIn.getCodigo() == codigo)
+                return (IProduto) prodIn;
+        return null;
     }
 
     @Override
@@ -47,17 +52,14 @@ public class ControladorProdutos implements IControladorProdutos{
     public IProduto incluiProduto(int codigo, String nome, String descricao, float preco, int quantidade, CategoriaProduto categoria) {
         Produto produto = new Produto(codigo, nome, descricao, preco, quantidade, categoria);
         produtos.add(produto);
-        return produto;
+        return (IProduto) produto;
     }
 
     public CategoriaProduto verificaCategoriaByCodigo(int codCateg) {
       for (CategoriaProduto cpIn : categorias)
             if (codCateg != 0)
-                if (cpIn.getCodito() == codCateg) {
-                    System.out.println(cpIn.getNome());
+                if (cpIn.getCodito() == codCateg) 
                     return cpIn;
-                }
-
         return null;
     }
     
