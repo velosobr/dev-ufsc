@@ -61,9 +61,10 @@ public class Controle {
                     break;
                 case (6):
                     listaEditora();
+                    System.out.println("Aperte backspace para continuar");
                     break;
                 case (7):
-                    getEditoraById();
+                    getNomeEditoraById();
                     break;
             }
         } while (opcao != 0);
@@ -73,6 +74,7 @@ public class Controle {
     private void incluiEditora() {
         System.out.println("---------- INSERINDO EDITORA ----------");
         System.out.println("Digite o ID da Editora: ");
+
         String codigoEditora = teclado.nextLine();
         System.out.println("Digite o Nome da Editora: ");
         String nomeEditora = teclado.nextLine();
@@ -80,18 +82,19 @@ public class Controle {
         editoras.add(editora);
     }
 
-    private void listaEditora(){
-        for (Editora edIn:
-             editoras) {
-            System.out.println("Nome: "+edIn.getNome() +"\nID: "+ edIn.getCodigo());
+    private void listaEditora() {
+        for (Editora edIn :
+                editoras) {
+            System.out.println("Nome: " + edIn.getNome() + "\nID: " + edIn.getCodigo());
 
         }
     }
-    private String getEditoraById(){
-        System.out.println("---------- BUSCANDO EDITORA PELO ID ----------");
+
+    private String getNomeEditoraById() {
+        System.out.println("---------- BUSCANDO NOME DA EDITORA PELO ID ----------");
         System.out.println("Digite o id da editora: ");
         String idEditora = teclado.nextLine();
-        for (Editora edIn: editoras)
+        for (Editora edIn : editoras)
             if (idEditora != null)
                 if (edIn.getCodigo().equals(idEditora)) {
                     System.out.println(edIn.getNome());
@@ -101,39 +104,67 @@ public class Controle {
         return null;
     }
 
+    private Editora getEditoraById() {
+        System.out.println("---------- BUSCANDO EDITORA PELO ID ----------");
+        System.out.println("Digite o id da editora: ");
+        String idEditora = teclado.nextLine();
+        for (Editora edIn : editoras)
+            if (idEditora != null)
+                if (edIn.getCodigo().equals(idEditora)) {
+                    return edIn;
+                }
+
+        return null;
+    }
+
+
     private void incluiAutor() {
         System.out.println("---------- INSERINDO AUTOR ----------");
         System.out.println("id do autor: ");
-        String codigoAutor= teclado.nextLine();
+        String codigoAutor = teclado.nextLine();
         System.out.println("Nome do autor: ");
         String nomeAutor = teclado.nextLine();
-        Autor autor= new Autor(codigoAutor, nomeAutor);
+        Autor autor = new Autor(codigoAutor, nomeAutor);
         autores.add(autor);
     }
 
     private void listaAutores() {
-        for (Autor auIn:
+        for (Autor auIn :
                 autores) {
-            System.out.println("Nome: "+auIn.getNome() +"\nID: "+ auIn.getCodigo());
+            System.out.println("Nome: " + auIn.getNome() + "\nID: " + auIn.getCodigo());
+
+            System.out.println("só um teste");
 
         }
     }
 
+
+    private Autor getAutorbyId() {
+        String idAutor = teclado.nextLine();
+        if (idAutor != null)
+            for (Autor auIn : autores)
+                if (auIn.getCodigo() == idAutor)
+                    return auIn;
+
+        return null;
+    }
+
     private void incluirLivro() {
         System.out.println("---------- INSERINDO LIVRO ----------");
-        System.out.println("id do autor: ");
-        String codigoAutor= teclado.nextLine();
-        System.out.println("Nome do autor: ");
-        String nomeAutor = teclado.nextLine();
-        int codigo;
-        String titulo;
-        int ano;
-        Editora editora;
-        Autor autor;
+        int codigo = teclado.nextInt();
+        String titulo = teclado.nextLine();
+        int ano = teclado.nextInt();
+        Editora editora = getEditoraById();
+        Autor autor = getAutorbyId();
         Livro livro = new Livro(codigo, titulo, ano, editora, autor);
     }
-    private void listaLivros() {
 
+
+    private void listaLivros() {
+        for (Livro livroIn : livros) {
+            System.out.println("Titulo: " + livroIn.getTitulo() + "\nID: " + livroIn.getEditora());
+
+        }
     }
 
 

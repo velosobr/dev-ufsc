@@ -12,14 +12,14 @@ public class Livro {
     private ArrayList<Capitulo> capitulos = new ArrayList<>();
 
 
-    public Livro(int codigo, String titulo, int ano, Editora editora, Autor autor, int numeroCapitulo, String tituloCapitulo) {
+    public Livro(int codigo, String titulo, int ano, Editora editora, Autor autor) {
         this.codigo = codigo;
         this.titulo = titulo;
         this.ano = ano;
         this.editora = editora;
 
         incluirAutor(autor);
-        incluirCapitulo(numeroCapitulo, tituloCapitulo);
+       // incluirCapitulo(numeroCapitulo, tituloCapitulo);
 
     }
 

@@ -1,1 +1,5 @@
 *.class
+/controle-acesso/nbproject/private/
+/MaisEnum/nbproject/private/
+/TelaPrincipal/nbproject/private/
+/TelaPrincipal/build/
