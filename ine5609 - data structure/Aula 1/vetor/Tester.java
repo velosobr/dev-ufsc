@@ -1,4 +1,4 @@
-package br.ufsc.ine5609.vetor;
+package vetor;
 
 public class Tester {
 

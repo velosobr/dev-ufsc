@@ -1,4 +1,4 @@
-package br.ufsc.ine5609.fila;
+package fila;
 
 public class usaFila {
 
@@ -12,6 +12,7 @@ public class usaFila {
 		mf1.entrar(11);
 		mf1.entrar(22);
 		mf2.entrar(mf1.sair());
+
 		
 		
 	}
