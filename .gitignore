@@ -3,3 +3,6 @@
 /MaisEnum/nbproject/private/
 /TelaPrincipal/nbproject/private/
 /TelaPrincipal/build/
+build
+node_modules
+package-lock.json

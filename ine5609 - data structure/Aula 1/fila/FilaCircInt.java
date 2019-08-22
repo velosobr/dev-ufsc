@@ -2,13 +2,13 @@ package fila;
 
 public class FilaCircInt {
 
-    int[] filaElementos;
+       int[] filaElementos;
     int posIn, posFim, contador;
 
     public FilaCircInt(int tamanho) {
         filaElementos = new int[tamanho];
-        posIn = 0;
-        posFim = 0;
+        posIn = -1;
+        posFim = -1;
         contador = 0;
 
     }
@@ -41,7 +41,7 @@ public class FilaCircInt {
      * */
     public int sair() throws Exception {
         if (!this.fVazia()) {
-            int temp = filaElementos[posIn];
+            int temp = filaElementos[posIn+1];
             posIn = (posIn + 1) % filaElementos.length;
             contador--;
             return temp;
@@ -49,5 +49,11 @@ public class FilaCircInt {
             throw new Exception("Fila vazia");
         }
     }
+
+    public int[] getFilaElementos() {
+        return filaElementos;
+    }
+
+
 
 }
