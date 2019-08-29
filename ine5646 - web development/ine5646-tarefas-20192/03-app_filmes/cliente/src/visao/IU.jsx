@@ -30,9 +30,9 @@ function IU () {
         <div className="message-header">
           UFSC - CTC - INE - INE5646 :: App Filmes
         </div>
-        <div className="message-body">
+        <div className="message-body" color>
           <div className="columns">
-            <div className="column is-three-fifths ">
+            <div className="column is-two-fifths ">
               <FilmesCadastrados
                 idFilmeSelecionado={estado.idFilmeSelecionado}
                 titulos={estado.titulos}

@@ -60,7 +60,9 @@ function montaBotao (idFilmeSelecionado, idFilme, quandoSelecionado) {
   let botao
 
   //FIXME O botão só deve ser exibido para filmes diferentes do filme atualmente selecionado.
-  botao =  <BotaoDetalhes id={idFilme} quandoClicado={quandoSelecionado}/>
+  
+  if(idFilme !== idFilmeSelecionado)
+    botao =  <BotaoDetalhes id={idFilme} quandoClicado={quandoSelecionado}/>
 
   return botao
 }
