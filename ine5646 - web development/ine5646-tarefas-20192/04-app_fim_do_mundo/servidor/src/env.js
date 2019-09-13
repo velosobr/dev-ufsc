@@ -24,6 +24,6 @@ if (comErro) {
   process.exit(1)
 }
 
-const PORTA = 3333
+const PORTA = process.env.PORTA
 const NASA_API_KEY = process.env.NASA_API_KEY
 export { PORTA, NASA_API_KEY }

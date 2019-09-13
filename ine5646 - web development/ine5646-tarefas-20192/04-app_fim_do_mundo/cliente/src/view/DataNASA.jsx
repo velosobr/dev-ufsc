@@ -7,20 +7,29 @@ function useModelo() {
 
 
   function validaData (data) {
+
+    console.log(data)
+    
     const campos = data.split('-')
     if (campos.length !== 3) {
+      console.log('Entrou no primeiro if')
+      
       return false
     }
     if (campos[0].length !== 4 ||
           campos[1].length !== 2 ||
           campos[2].length !== 2) {
+      console.log('entrou no segundo if')
+            
       return false
     }
 
     if (isNaN(parseInt(campos[0], 10)) ||
-          parseInt(campos[0], 10) < 1970 ||
+          parseInt(campos[0], 10) < 1970 && parseInt(campos[0], 10)||
           isNaN(parseInt(campos[1], 10)) ||
           isNaN(parseInt(campos[2], 10))) {
+      console.log('entrou no terceiro if, o que valida se isNaN')
+            
       return false
     }
 
@@ -41,7 +50,7 @@ const DataNASA = (props) => {
       props.onDataValida(novaData)
     } else {
       //FIXME Algo deve ser feito quando a data for inválida. Dica: analise props
-      props.onDataValida('2019-12-25')
+      props.onDataInvalida()
     }
   }
 
