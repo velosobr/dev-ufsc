@@ -8,7 +8,7 @@ Lista
     
 Pilhas e filas tem funções muito especiais. Porém não tem como objetivo oferecer a busca.
  
-Lista se diferencia pela busca, por poder guardar qualquer valor em qualqer ordem.
+Lista se diferencia pela busca, por poder guardar qualquer valor em qualqer ordem.c
 
     
     

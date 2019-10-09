@@ -1,4 +1,4 @@
-package lista;
+package listaDuplamenteEncadeada;
 
 public class Caixa {
 

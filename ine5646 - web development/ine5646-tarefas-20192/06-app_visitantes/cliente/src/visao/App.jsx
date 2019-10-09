@@ -66,10 +66,17 @@ const App = () => {
   // Na forma atual, o usuário pode pensar que a aplicação parou de funcionar.
   
   switch (estado.situacao) {
+  case EnumSituacao.PESQUISANDO:{
+    conteudo = <h1>Aguarde. Pesquisando</h1>
+    break
+  }
+  
   case EnumSituacao.INICIAL: {
     conteudo = <Button label='Obter Dados' onClick={() => buscaDados()}/>
     break
   }
+
+  
   
   case EnumSituacao.EXIBINDO: {
     const dadosDoGrafico = {

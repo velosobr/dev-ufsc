@@ -1,16 +1,16 @@
-package Pilha;
+package lista;
 
-public class Caixinha {
+public class Caixa {
 
     private int valor;
-    private Caixinha proximo;
+    private Caixa proximo;
 
-    public Caixinha(int valor) {
+    public Caixa(int valor) {
         this.valor = valor;
         this.proximo = null;
     }
 
-    public void setProx(Caixinha topo) {
+    public void setProx(Caixa topo) {
         this.proximo = topo;
     }
 
@@ -18,7 +18,7 @@ public class Caixinha {
         return this.valor;
     }
 
-    public Caixinha getProx() {
+    public Caixa getProx() {
         return this.proximo;
     }
 }

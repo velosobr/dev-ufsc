@@ -1,14 +1,27 @@
-Lista
-    - sequencial
-    - busca (Acesso a todos os elementos, porém/mas de forma sequencial)
-    - inserção e remoção de/em qualquer posição
-    
-    
-   
-    
-Pilhas e filas tem funções muito especiais. Porém não tem como objetivo oferecer a busca.
- 
-Lista se diferencia pela busca, por poder guardar qualquer valor em qualqer ordem.c
+Trabalho
 
+lista duplamente encadeada
+c/ cursor
+
+Operacoes privadas Cursor
+   
+    vaParaPrimeiro()
+    vaParaUltimo()
+    avanca(n pos)
+    retrocede(n pos)
+    public bool busca(ref): prosiciona o cursor apontando p/ elemento encontrado
+   
+   documentar o que fazer quando não encontrar
+   
+    insereNaFrente()
+    insereNoFim
+    InsereAposAtual
+    insereAntesAtual
+    insereNaPosicao(n pos)
     
+    excluirPrimeiro()
+    excluirUltimo()
+    excluiAtual() - onde está o cursor
+    acessaAtual()
     
+   especificar para onde vai o cursor quando for feita alguma operação

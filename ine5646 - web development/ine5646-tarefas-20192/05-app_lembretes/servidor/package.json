@@ -11,7 +11,10 @@
     "MongoDB",
     "JWT"
   ],
-  "author": "Leandro J. Komosinski",
+  "authors": {
+    "autor1": "Leandro J. Komosinski",
+    "autor2": "Lino Veloso"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
