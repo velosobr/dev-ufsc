@@ -24,3 +24,9 @@ Em alguns sistemas, quando um processo cria outro, o processo pai e o processo f
 Basicamente vamos falar dos dois principais sistemas:
 Unix: um processo, todos os seus filhos e descendentes formam um grupo de processos.<br>
 Windows: Não apresenta nenhum conceito de hierarquia de processos.
+
+<b>2.1.5 - Estados de processos</b>
+<br>Quanto aos estados de processos, eles podem estar:<br>
+1 - Em execução (realmente usando a CPU naquele instante).<br>
+2 - Pronto (executável> temporáriamente parado para dar lugar a outros processos).<br>
+3 - Bloqueado (incapaz de executar enquanto não ocorrer um evento).<br>
