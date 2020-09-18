@@ -9,7 +9,7 @@
 > NOTA FINAL = (p1 + p2 + p3 + Media(t1,t2,t3))/4
 
 ## AULA 02 dia 03-09-20
-- ATRIBUTO = COLUNA
+- ATRIBUTO = COLUNA = GRAU
 - TUPLA = LINHA
 - CHAVES CANDIDATAS = CHAVE PRIMARIA + CHAVES ALTERNATIVAS
 - CHAVES ALTERNATIVAS = CHAVES CANDIDATAS - CHAVE PRIMARIA
@@ -53,3 +53,56 @@ hora >= 7 ^ hora <= 12
 
 π Funcionarios.nome, salário ( 
  σ (Funcionarios.cidade = 'Palhoça' v Funcionarios.cidade = 'Florianopolis') ^ (Funcionarios.CPF = Pacientes.CPF ^ Consultas.codp = Pacientes.codp ^ Consultas.codm = Medicos.codm ^ Medicos.especialidade = 'psiquiatria' (Medicos x Consultas X Pacientes x Funcionarios))
+
+
+ Aula 17/09/20
+
+ π nroa (σ Ambulatorios.capacidade > Amb100.capacidade (π nroa,capacidade (Ambulatorios) X ρ Amb100 (π capacidade (σ nroa = 100 (Ambulatorios)))))
+
+ 2)
+Fun1←π CPF,salário (σ CPF = 1001(Funcionários))
+Fun2←π nome,CPF,salário (Funcionários)
+Resposta←π nome,CPF (σ Fun2.salário <= Fun1.salário ˄ Fun1.CPF ≠ Fun2.CPF(Fun1 X Fun2))
+
+π Funcionarios.CPF, Funcionarios.nome, (σ Funcionarios.salario<= Func1001.salario (π CPF, nome, salario (Funcionarios) X ρ Func1001 (π salário (σ cpf = 1001 (Funcionarios)))))
+
+UNIÃO, DIFERENÇA E INTERSECÇÃO
+1
+Medicos <- π CPF, nome (Medicos)
+Pacientes <- π CPF, nome (Pacientes)
+Medicos U Pacientes
+
+Med <- π CPF, nome, idade (Medicos)
+Pac<- π CPF, nome (Pacientes)
+Med U Pac
+
+π nome, CPF ( Médicos) U π nome, CPF (Pacientes) Resposta do professor
+
+2
+Med <- π CPF, nome, idade(σ cidade = ‘Florianópolis’(Medicos))
+Pacientes<- π CPF, nome, idade (σ cidade = ‘Florianópolis’(Pacientes))
+Funcionarios<- π CPF, nome, idade (σ cidade = ‘Florianópolis’(Funcionarios))
+Med U (Pacientes U  Funcionarios) RESPOSTA OK
+
+3
+func <- π nome, cpf(σ salario < 1500(funcionarios))
+
+Func <- π nome, cpf (σ salario < 1500 (Funcionarios))
+Pac <- π nome, CPF
+π nome, CPF (Func - Pac)
+
+4 
+amb <- π nro (ambulatorios)
+med <- π nroa(medicos) (amb - med)
+
+5
+Func←nome, cpf(σ cidade = 'Florianópolis'(Funcionários))
+Pac←π nome, cpf(σ cidade = 'Florianópolis'(Pacientes))
+Resposta←Func∩Pac
+
+6 
+Med <- π nome, cpf (σ especialidade = 'Pediatria' ^ nroa != 101 ^ nroa != 102 (Médicos))
+
+Pac <- π nome, cpf (σ doença = 'gastrite' (Pacientes))
+
+Res <- Med ∩ Pac
