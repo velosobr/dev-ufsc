@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/linguagem_c.dir/main.c.o  -o linguagem_c 
