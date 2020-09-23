@@ -106,3 +106,16 @@ Med <- π nome, cpf (σ especialidade = 'Pediatria' ^ nroa != 101 ^ nroa != 102 
 Pac <- π nome, cpf (σ doença = 'gastrite' (Pacientes))
 
 Res <- Med ∩ Pac
+
+Aula 22/09/20
+Join
+1) Buscar o numero e a capacidade dos ambulatorios do quinto andar e o nome dos medicos que atendem neles
+R. Med ← π nome, nroa (Medicos)
+Amb5 ← π nroa, capacidade (σ andar = 5 (Ambulatorios))
+RESPOSTA ← Amb5 ⊗ Med
+
+2) 2) R1 ← π cpf, nome, salário (σ cidade = 'Florianópolis' ˅ cidade = 'Palhoça' (Funcionários))
+R2 ← π cpf, codp (σ cidade = 'Florianópolis' ˅ cidade = 'Palhoça' (Pacientes))
+R3 ← π codp (σ data = '20/9/2020' (Consultas))
+R4 ← R1 ⋈ R2
+R5 ← π nome, salário (R3 ⋈ R4)
