@@ -119,3 +119,28 @@ R2 ← π cpf, codp (σ cidade = 'Florianópolis' ˅ cidade = 'Palhoça' (Pacien
 R3 ← π codp (σ data = '20/9/2020' (Consultas))
 R4 ← R1 ⋈ R2
 R5 ← π nome, salário (R3 ⋈ R4)
+
+Aula 29/09/20
+1) remover os médicos que estão internados como pacientes sofrendo de cancer
+Respostas possiveis -) 
+Médicos ← Médicos - (Médicos ⋈ π CPF (σ doença = 'câncer'(Pacientes)))
+
+R1 ← π cpf (σ doença = 'câncer' (Pacientes))
+R2 ← π cpf (R1⊗ Médicos)
+Médicos ← Médicos - σ R2.cpf=Médicos.cpf R2
+
+2) o funcionario com CPF 1000 foi internado como paciente com código 75. Ele está com hepatite. Incluir este funcionario na tabela de pacientes, obtendo os dados em comum da tabela Funcionarios.
+
+Respostas: DadosFunc ←
+π CPF, nome, idade, cidade
+(σ CPF = 1000 Funcionarios)
+
+Pacientes ← Pacientes U (({(75)}) X DadosFunc X ({('hepatite')}))
+
+3) o médico com código 37 transferiu todas as suas consultas do dia 29-09-20 para o dia 08-10-20
+Resposta: Temp ← (σ codm = 37 ^ data = '29/09/2020' (Consultas))
+Consultas ← Consultas - Temp
+δ data ← ‘08/10/2020’ ( Temp)
+Consultas ← Consultas U Temp
+
+4) fazer em casa
