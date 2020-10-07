@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/main.c" "/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/cmake-build-debug/CMakeFiles/linguagem_c.dir/main.c.o"
+  "/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/cmake-build-debug/workingWithThreads.c" "/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/cmake-build-debug/CMakeFiles/linguagem_c.dir/workingWithThreads.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

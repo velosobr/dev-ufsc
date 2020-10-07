@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/linguagem_c.dir/main.c.o"
+  "CMakeFiles/linguagem_c.dir/workingWithThreads.c.o"
   "linguagem_c"
   "linguagem_c.pdb"
 )

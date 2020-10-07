@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/linguagem_c.dir/main.c.o  -o linguagem_c 
+/usr/bin/cc -g   CMakeFiles/linguagem_c.dir/main.c.o CMakeFiles/linguagem_c.dir/workingWithThreads.c.o  -o linguagem_c 

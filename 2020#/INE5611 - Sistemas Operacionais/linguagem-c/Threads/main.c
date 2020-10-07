@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
     }
 
     for (thread = 0; thread < NUM_THREADS; thread++) {
-        pthread_join(threads[thread], NULL);
+        pthread_join(threads[i], NULL);
     }
     pthread_exit(NULL);
 

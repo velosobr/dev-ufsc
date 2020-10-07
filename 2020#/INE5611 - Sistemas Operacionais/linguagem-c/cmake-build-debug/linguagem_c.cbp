@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/cmake-build-debug/workingWithThreads.c">
+			<Option target="linguagem_c"/>
+		</Unit>
 		<Unit filename="/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/main.c">
 			<Option target="linguagem_c"/>
 		</Unit>

@@ -170,6 +170,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linguagem_c.dir/build.make CMakeFiles/linguagem_c.dir/main.c.s
 .PHONY : main.c.s
 
+workingWithThreads.o: workingWithThreads.c.o
+
+.PHONY : workingWithThreads.o
+
+# target to build an object file
+workingWithThreads.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linguagem_c.dir/build.make CMakeFiles/linguagem_c.dir/workingWithThreads.c.o
+.PHONY : workingWithThreads.c.o
+
+workingWithThreads.i: workingWithThreads.c.i
+
+.PHONY : workingWithThreads.i
+
+# target to preprocess a source file
+workingWithThreads.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linguagem_c.dir/build.make CMakeFiles/linguagem_c.dir/workingWithThreads.c.i
+.PHONY : workingWithThreads.c.i
+
+workingWithThreads.s: workingWithThreads.c.s
+
+.PHONY : workingWithThreads.s
+
+# target to generate assembly for a file
+workingWithThreads.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linguagem_c.dir/build.make CMakeFiles/linguagem_c.dir/workingWithThreads.c.s
+.PHONY : workingWithThreads.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... workingWithThreads.o"
+	@echo "... workingWithThreads.i"
+	@echo "... workingWithThreads.s"
 .PHONY : help
 
 
