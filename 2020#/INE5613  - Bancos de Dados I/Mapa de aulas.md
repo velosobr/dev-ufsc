@@ -144,3 +144,77 @@ Consultas ← Consultas - Temp
 Consultas ← Consultas U Temp
 
 4) fazer em casa
+
+
+DadosFunc ←
+π CPF, nome, idade, cidade
+
+
+(σ CPF = 1000 Funcionarios)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Temp ← (σ codm = 37 ^ data = '29/09/2020' (Consultas))
+Consultas ← Consultas - Temp
+δ data ← ‘08/10/2020’ ( Temp)
+Consultas ← Consultas U Temp
+
+
+
+
+
+
+cod
+titulo
+1995 > e < 2015
+salao = 36
+(σ ano > 1995 ^ ano < 2015 ^ salao = 36 (obras))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
