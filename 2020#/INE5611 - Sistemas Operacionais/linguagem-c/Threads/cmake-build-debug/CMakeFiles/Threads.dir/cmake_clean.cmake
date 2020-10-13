@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Threads.dir/fork1.c.o"
   "CMakeFiles/Threads.dir/main.c.o"
   "Threads"
   "Threads.pdb"

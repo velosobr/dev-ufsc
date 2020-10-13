@@ -143,6 +143,33 @@ Threads/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/build
 .PHONY : Threads/fast
 
+fork1.o: fork1.c.o
+
+.PHONY : fork1.o
+
+# target to build an object file
+fork1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/fork1.c.o
+.PHONY : fork1.c.o
+
+fork1.i: fork1.c.i
+
+.PHONY : fork1.i
+
+# target to preprocess a source file
+fork1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/fork1.c.i
+.PHONY : fork1.c.i
+
+fork1.s: fork1.c.s
+
+.PHONY : fork1.s
+
+# target to generate assembly for a file
+fork1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/fork1.c.s
+.PHONY : fork1.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Threads"
+	@echo "... fork1.o"
+	@echo "... fork1.i"
+	@echo "... fork1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
