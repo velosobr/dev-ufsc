@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/Threads/fork1.c
-sys/types.h
+/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/Threads/main.c
+stdio.h
 -
 unistd.h
 -
-stdio.h
--
 stdlib.h
+-
+string.h
+-
+pthread.h
 -
 

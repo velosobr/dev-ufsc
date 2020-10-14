@@ -5,3 +5,5 @@ CMakeFiles/Threads.dir/fork1.c.o: ../fork1.c
 
 CMakeFiles/Threads.dir/main.c.o: ../main.c
 
+CMakeFiles/Threads.dir/threadEstudo.c.o: ../threadEstudo.c
+

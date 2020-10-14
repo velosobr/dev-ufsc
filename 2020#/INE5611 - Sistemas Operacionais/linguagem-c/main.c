@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <pthread.h>
+
+int varT = 20;
 
 int main() {
     printf("Hello, pessoal do C World\n");

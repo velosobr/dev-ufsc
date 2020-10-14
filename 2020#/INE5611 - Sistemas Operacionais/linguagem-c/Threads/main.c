@@ -1,38 +1,37 @@
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <pthread.h>
-//
-//#define NUM_THREADS 5
-//
-//// funcao que recebe outra funcao por parametro
-//void *print_hello(void *threadId) {
-//    long tId;
-//    tId = (long) threadId;
-//    printf("Hello World! It's me, thread #%ld!\n", tId);
-//    pthread_exit(NULL);
-//}
-//
-//int main(int argc, char *argv[]) {
-//
-//    pthread_t threads[NUM_THREADS];
-//
-//    int returnCode;
-//    long thread;
-//
-//    for (thread = 0; thread < NUM_THREADS; thread++) {
-//        printf("In main: creating thread %ld\n", thread);
-//        returnCode = pthread_create(&threads[thread], NULL, print_hello, (void *) thread);
-//
-//        if (returnCode) {
-//            printf("ERROR; return code from pthread_create() is %d\n", returnCode);
-//            exit(-1);
-//        }
-//    }
-//
-//    for (thread = 0; thread < NUM_THREADS; thread++) {
-//        pthread_join(threads[i], NULL);
-//    }
-//    pthread_exit(NULL);
-//
-//
-//}
+
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+
+void *thread_function(void *arg);
+
+char message[] = "Alo mundo!";
+
+void *thread_function(void *arg) {
+    printf("thread_function executando. Argumento foi %s\n", (char *) arg);
+    sleep(3);
+    strcpy(message, "Tchau!");
+    pthread_exit("Obrigado pelo tempo de CPU");
+}
+
+int main() {
+    int res;
+    pthread_t a_thread;
+    void *thread_result;
+    res = pthread_create(&a_thread, NULL, thread_function, (void *) message);
+    if (res != 0) {
+        perror("Criacao de Thread falhou");
+        exit(EXIT_FAILURE);
+    }
+    printf("Esperando por thread finalizar...\n");
+    res = pthread_join(a_thread, &thread_result);
+    if (res != 0) {
+        perror("Thread falhou no join");
+        exit(EXIT_FAILURE);
+    }
+    printf("Thread joined, retornou %s\n", (char *) thread_result);
+    printf("Menssagem agora eh %s\n", message);
+    exit(EXIT_SUCCESS);
+}
