@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/Threads.dir/main.c.o CMakeFiles/Threads.dir/fork1.c.o  -o Threads 

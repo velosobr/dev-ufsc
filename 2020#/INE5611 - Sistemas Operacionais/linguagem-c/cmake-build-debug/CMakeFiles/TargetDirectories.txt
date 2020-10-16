@@ -1,3 +1,0 @@
-/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagem-c/cmake-build-debug/CMakeFiles/linguagem_c.dir

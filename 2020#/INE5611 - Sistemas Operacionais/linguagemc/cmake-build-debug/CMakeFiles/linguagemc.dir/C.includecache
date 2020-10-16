@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagemc/Ponteiros/ex1.c
+stdio.h
+-
+

@@ -1,0 +1,4 @@
+/home/lino.veloso/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.62/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagemc"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lino.veloso/dev/dev-ufsc/2020#/INE5611 - Sistemas Operacionais/linguagemc/cmake-build-debug
