@@ -46,3 +46,5 @@ CREATE TABLE Consultas (
   PRIMARY KEY(codm, data, hora), 
   FOREIGN KEY(codm) REFERENCES medicos, 
   FOREIGN KEY(codp) REFERENCES pacientes)
+
+  
