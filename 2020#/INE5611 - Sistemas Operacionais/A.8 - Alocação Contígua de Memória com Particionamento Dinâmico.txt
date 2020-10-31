@@ -41,3 +41,34 @@ Alocar 6KB na pior/maior espaço livre(15KB)
 10 KB, 4 KB, [5KB], [6KB], 9KB, [10KB], 8KB, 7 KB, 9 KB, 12 KB e 13 KB
 
 b) 15 KB, 4 KB e 8 KB, nesta ordem
+
+first-fit:
+Alocar 15KB no primeira espaço livre(20KB), sobra 5KB.
+10 KB, 4 KB, [15KB], 5KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 4KB no primeiro espaço livre(10KB), sobra 6KB.
+[4KB], 6KB, 4 KB, [15KB], 5KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 8KB no primeiro espaço livre(18KB)
+[4KB], 6KB, 4 KB, [15KB], 5KB, [8KB], 10 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+best-fit:
+Alocar 15KB no menor espaço livre(7KB), sobra 2KB.
+10 KB, 4 KB, 20 KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 4KB no menor espaço livre(7KB), sobra 2KB.
+10 KB, 4 KB, 20 KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 8KB no menor espaço livre(7KB), sobra 2KB.
+10 KB, 4 KB, 20 KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+
+worst-fit:
+alocar 15KB na pior/maior espaço livre(20KB) sobra 5KB
+10 KB, 4 KB, [15KB], 5 KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+alocar 4KB na pior/maior espaço livre(18KB), sobra 14KB
+10 KB, 4 KB, [15KB] 5 KB, [4kb], 14 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+alocar 8KB na pior/maior espaço livre(14KB), sobra 8KB
+10 KB, 4 KB, [15KB] 5 KB, [4kb], [8KB], 8KB, 7 KB, 9 KB, 12 KB e 13 KB
