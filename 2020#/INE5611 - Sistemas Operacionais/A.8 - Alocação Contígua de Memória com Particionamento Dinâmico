@@ -1,0 +1,43 @@
+Considere um sistema cuja gerência de memória é feita por meio de particionamento
+dinâmico. Nesse momento, existem áreas livres com os seguintes tamanhos na memória
+principal: 10 KB, 4 KB, 20 KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB, nesta ordem.
+Apresente a sequência de ocupação destas áreas livres, considerando a ocorrência das
+solicitações de alocação de memória abaixo, para cada um dos seguintes algoritmos:
+first-fit, best-fit e worst-fit.
+
+a 5 KB, 10 KB e 6 KB, nesta ordem
+b 15 KB, 4 KB e 8 KB, nesta ordem
+
+10 KB, 4 KB, 20 KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+first-fit:
+Alocar 5KB no primeira espaço livre(10KB), sobra 5KB.
+[5kb], 5kb, 4 KB, 20 KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 10KB no primeiro espaço livre(20KB), sobra 10KB.
+[5kb], 5kb, 4 KB, [10KB], 10KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 6KB no primeiro espaço livre, agora com 10KB sobrando. Sobra 4 KB.
+[5kb], 5kb, 4 KB, [10KB], [6KB], 4kb, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+best-fit:
+Alocar 5KB no menor espaço livre(7KB), sobra 2KB.
+10 KB, 4 KB, 20 KB, 18 KB, [5KB], 2 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 10KB no menor espaço livre, primeira posição (10kb), não sobra nada.
+[10 KB], 4 KB, 20 KB, 18 KB, [5KB], 2 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 6KB no menor espaço livre(9KB), sobra 3KB.
+[10 KB], 4 KB, 20 KB, 18 KB, [5KB], 2 KB, [6kb], 3 KB, 12 KB e 13 KB
+
+
+worst-fit:
+
+alocar 5KB na pior/maior espaço livre(20KB)
+10 KB, 4 KB, [5KB], 15KB, 18 KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 10KB na pior/maior espaço livre(18KB)
+10 KB, 4 KB, [5KB], 15KB, [10KB], 8KB, 7 KB, 9 KB, 12 KB e 13 KB
+
+Alocar 6KB na pior/maior espaço livre(15KB)
+10 KB, 4 KB, [5KB], [6KB], 9KB, [10KB], 8KB, 7 KB, 9 KB, 12 KB e 13 KB
