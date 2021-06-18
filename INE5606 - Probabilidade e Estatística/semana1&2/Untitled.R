@@ -37,3 +37,4 @@ prop <- table(CO2$Type)/nrow(CO2) # proporção dos estratos na população
 prop * n # tamanho da amostra a ser coletada por estrato
 s <- strata(CO2, 'Type', size = c(3,3), method='srswor')
 amostra <- getdata(CO2,s); amostra
+
