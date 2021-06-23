@@ -1,0 +1,38 @@
+---
+title: "Lista 1"
+---
+
+Exercicio 1
+a)
+4 variaveis, 
+País = qualitativa nominal, 
+Preco do quarto = qualitativa ordinal
+Numero de quartos = quantitativa discreta
+Pontuacao global = quantitativa continua
+
+b) regra de 3
+9 - 100
+2 - x
+x = 200/9 
+```{r}
+x <- 200/9 
+x
+```
+c) regra de 3 novamente
+9 - 100
+4 - x
+```{r}
+Y <- 400/9
+```
+
+
+Exercicio 2
+Variaveis: genero, peso, possuiComputador, classificacaoNaRedacao(otimo, bom ou ruim), número de irmãos.
+
+5 ao todo,
+genero = qualitativa nominal,
+peso = quantitativa continua
+possui computador = qualitativa nominal
+classificacao na redacao = qualitativa ordinal
+numero de irmaos = quantitativa discreta
+
