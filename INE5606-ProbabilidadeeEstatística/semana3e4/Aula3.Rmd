@@ -1,0 +1,42 @@
+---
+title: "Tabelas de distribuicao de frequencia"
+
+Freq relativa: f_i = n_i/n
+Freq acumulada: N_i 
+eg(Exempli gratia) = 
+N_1 = n_1
+N_2 = N_1 + n_2
+(...)
+
+Freq relativa acumulada: F_i
+eg: 
+F_1 = f_1
+F_2 = F_1 + f_2
+(...)
+---
+
+carregando tabela
+```{r}
+source('~/dev/dev-ufsc/INE5606-ProbabilidadeeEstatística/semana3e4/[R] Script-20210706/tab_freq.R')
+```
+
+Testando a tabela de frequencia
+```{r}
+tab_freq
+
+```
+
+```{r}
+jogos <- c(rep('Dota 2', 100), rep('CS', 50), rep('lol', 10), rep('Outros', 40))
+
+tab_freq(jogos)
+```
+
+---
+title: "Tabelas de contingencia"
+---
+
+
+```{r}
+dados = read.table("~/dev/dev-ufsc/INE5606-ProbabilidadeeEstatística/semana3e4/[R] Script-20210706/cont.txt", header = T)
+```
