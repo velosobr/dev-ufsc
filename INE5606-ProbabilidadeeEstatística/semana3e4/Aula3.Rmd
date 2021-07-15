@@ -40,3 +40,24 @@ title: "Tabelas de contingencia"
 ```{r}
 dados = read.table("~/dev/dev-ufsc/INE5606-ProbabilidadeeEstatística/semana3e4/[R] Script-20210706/cont.txt", header = T)
 ```
+
+```{r}
+tab = table(dados$Cursinho, dados$Cidade)
+```
+```{r}
+colSums(tab)
+```
+
+```{r}
+rowSums(tab)
+```
+
+
+```{r}
+relativa <- prop.table(tab); relativa
+```
+
+```{r}
+round(relativa, 2)
+```
+
